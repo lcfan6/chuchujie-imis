@@ -1,6 +1,5 @@
 function qsParser(url) {
     var idx = url.indexOf('?');
-
     function clearStack() {
         var key = stack[0],
             value = stack[1];
